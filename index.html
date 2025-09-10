@@ -206,9 +206,9 @@
                     subtitle: "In addition to core ERP, CRM, and inventory management, we offer more customized modules to address the unique challenges of semiconductor manufacturing and supply chains.",
                     cards: [
                         { title: "Project & Documents Management", desc: "For **IC design** and **EDA software** companies, efficiently manage complex R&D projects from concept to validation, ensuring high traceability and security of design files, intellectual property, and project progress." },
-                        { title: "Smart Manufacturing & Maintenance", desc: "Provides precise Material Requirements Planning (MRP) for **foundries**, **equipment manufacturers**, and **packaging & testing** companies, and maximizes the uptime of production equipment (like etchers, lithography machines) through predictive maintenance, reducing unexpected downtime." },
+                        { title: "Smart Manufacturing & Maintenance", desc: "Provides precise Material Requirements Planning (MRP) for **foundries**, **equipment manufacturers** and **packaging & testing** companies, and maximizes the uptime of production equipment (like etchers, lithography machines) through predictive maintenance, reducing unexpected downtime." },
                         { title: "Supply Chain & Quality Traceability", desc: "Helps **materials**, **chemicals**, and **critical components** suppliers manage global, multi-tiered supply chains. It ensures full traceability of product batches from procurement to shipping, guaranteeing quality and compliance while mitigating geopolitical risks." },
-                        { title: "Sales & Customer Service", desc: "Assists **equipment suppliers** and **testing service** providers in managing sales pipelines, handling after-sales service and technical support. The **Field Service** module enables real-time tracking of technician assignments and task status." },
+                        { title: "Sales & Customer Service", desc: "Assists **equipment suppliers** or **testing service** providers in managing sales pipelines, handling after-sales service and technical support. The **Field Service** module enables real-time tracking of technician assignments and task status." },
                         { title: "Sustainability & Green Manufacturing", desc: "Combines **Accounting**, **Inventory**, and **IoT** modules to help companies track carbon emissions, energy, and water consumption, and generate ESG reports to comply with international green manufacturing and supply chain requirements." },
                         { title: "Flexible Deployment & Scalability", desc: "Odoo's modular design allows **startups** to begin with a small-scale implementation of core ERP functions, and then gradually expand to more modules as their business grows, achieving low-cost and high-efficiency digital transformation." }
                     ]
@@ -236,7 +236,7 @@
                         {
                             title: "3. Why Now?",
                             content: [
-                                "SEMICON Taiwan 2025 marks the peak of the industry's AI transformation. As global semiconductor companies focus on supply chain resilience and smart manufacturing, implementing Odoo + AI integration now allows you to immediately apply it to your post-exhibition business expansion, such as optimizing HBM production or silicon photonics applications. AI technologies like LLM Agents are mature (Odoo modules support multi-LLM integration). Delaying could mean missing out on market opportunities by late 2025. Given geopolitical challenges, strengthening your ERP/CRM now is crucial for maintaining a competitive edge.",
+                                "SEMICON Taiwan 2025 marks the peak of the industry's AI transformation. As global semiconductor companies focus on supply chain resilience and smart manufacturing, implementing Odoo + AI integration now allows you to immediately apply it to your post-exhibition business expansion, such as optimizing HBM production or silicon photonics applications. AI technologies like LLM Agent are mature (Odoo modules support multi-LLM integration). Delaying could mean missing out on market opportunities by late 2025. Given geopolitical challenges, strengthening your ERP/CRM is crucial for maintaining a competitive edge.",
                                 "During the exhibition, I can offer special implementation packages to help you go live within 3 months and catch the AI wave.",
                                 "Waiting until next year will only lead to higher costs and risks."
                             ]
@@ -327,7 +327,7 @@
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                                 </svg>
                             </button>
-                            <div class="accordion-content p-6 pt-0 text-gray-600 leading-relaxed hidden">
+                            <div class="accordion-content p-6 pt-0 text-gray-600 leading-relaxed">
                                 ${q.content.map((p, pIndex) => `<p ${pIndex === 1 || pIndex === 2 ? 'class="mt-4"' : ''}>${p}</p>`).join('')}
                             </div>
                         </div>
